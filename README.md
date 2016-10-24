@@ -6,4 +6,6 @@ Ruby -> 2.2.3
 
 ----> Please input the database connection details ( Please do not enter wrong details )
 ----> Please input a correct query to execute ( Please do not make any typo error ) 
-----> The result will be displayed in the HTML table
+----> The result will be displayed in the HTML table 
+----> No authetication is done
+----> No error handling logic implemented
