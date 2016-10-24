@@ -1,0 +1,49 @@
+<html>
+  <title>Welcome</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+  <body>
+
+<div class="container">
+<form action="/user/write" method="post">
+<div class="form-group row">
+  <label for="example-url-input" class="col-xs-2 col-form-label">Host Address</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" name="host" value="localhost" id="host" required>
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Username</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" name="username" value="root" id="uname" required>
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-password-input" class="col-xs-2 col-form-label">Password</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="password" name="password" value="root" id="password" required>
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Database Name</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" name="dbname" value="demo" id="dbname" required>
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-number-input" class="col-xs-2 col-form-label">Number</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="number" name="port" value="3306" id="port" required>
+  </div>
+</div>
+  <br>
+  <input type="submit"name="button1"value="Connect to a database">
+</div>
+</form>
+  </body>
+</html>
